@@ -1,0 +1,19 @@
+-- Files --
+ProjectDetails.csv: ProjectID, Specialization, ProjectStatus, Comments
+ContentDetails.csv: ( Lecturer ID ), ProjectID, ContentDetails, ( ContentStatus )
+StudentDetails.csv: StudentID, Specialization
+AssignmentList.csv: ProjectID, StudentID
+LecturerDetails.csv: LecturerID, ProjectID
+
+ProjectStatus(Activated, Deactivated)
+ContentStatus(Uploaded, Published)
+
+--Reports--
+list of projects entered into the system 
+list of projects according to specialization
+list of projects according to lecturers 
+list of inactive projects 
+list of active projects 
+list of projects assigned to students
+list of project un-assign to students
+list of projects with comments
